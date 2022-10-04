@@ -1,0 +1,22 @@
+class ArrayOfArraysDemo
+{
+public static void main(String[] args)
+{
+String[][] Items = {{"CARS", "BMW", "HONDA", "MARUTI", "HYUNDAI"}, 
+                               {"BIKES", "TVS", "YAMAHA", "ENFIELD"}, 
+                               {"COMPUTER", "HP", "SAMSUMG", "LENOVA", "IBM", "IPAD"}, 
+                                {"MODILS", "NOKIA", "OPPO", "MOTO", "BERRY", "IPHONE"}};
+
+                  for (int i = 0; i < Items.length; i++)
+                       {
+                          System.out.print(Items[i][0] + " : ");
+
+                          for (int j = 1; j < Items[i].length; j++)
+                              {
+                            System.out.print(Items[i][j] + " ");
+                              }
+
+                            System.out.println();
+                        }
+            }
+      }
